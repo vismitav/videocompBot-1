@@ -1,0 +1,75 @@
+{
+  "name": "MT-VideoCompressBot",
+  "description": "Telegram's best Video Compress Bot",
+  "logo": "https://telegra.ph/file/9ba00f90939c4134d5629.png",
+  "keywords": [
+    "telegram",
+    "best",
+    "video",
+    "compress",
+    "bot"
+  ],
+  "success_url": "https://t.me/Binary_bots_Support",
+  "website": "https://t.me/ab_binary",
+  "repository": "https://github.com/Silentzlk/VideoCompBot",
+  "env": {
+    "ENV": {
+      "description": "Setting this to ANYTHING will enable VARs when in ENV mode",
+      "value": "ANYTHING"
+    },
+    "SESSION_NAME": {
+      "description": "Keep this default",
+      "value": "MTCompressBot",
+      "required": true
+    },
+    "DATABASE_URL": {
+      "description": "MongoDB URL for Database.",
+      "value": "",
+      "required": true
+    },
+    "TG_BOT_TOKEN": {
+      "description": "Get this from @BotFather",
+      "value": "",
+      "required": true
+    },
+    "APP_ID": {
+      "description": "Get this value from https://my.telegram.org",
+      "value": "",
+      "required": true
+    },
+    "API_HASH": {
+      "description": "Get this value from https://my.telegram.org",
+      "value": "",
+      "required": true
+    },
+    "AUTH_USERS": {
+      "description": "Allow only pre-defined users to use this bot as Sudo User. Separate with Space. Just for using Admin Commands.",
+      "value": "123456789",
+      "required": false
+    },
+    "FINISHED_PROGRESS_STR": {
+      "description": "Should be a single character.",
+      "required": false
+    },
+    "UN_FINISHED_PROGRESS_STR": {
+      "description": "Should be a single character.",
+      "required": false
+    },
+    "BOT_USERNAME": {
+      "description": "Your Bot Username. Without `@` before Username!",
+      "value": "Binary_video_comp_bot",
+      "required": true
+    },
+    "LOG_CHANNEL": {
+      "description": "Your Bot's Log Channel's Username. For Help ask in @linux_repo",
+      "value": "",
+      "required": true
+    },
+    "UPDATES_CHANNEL": {
+      "description": "Add your Channel username which you want to do Force Sub. Read README.md file first!",
+      "value": "Mo_Tech_YT",
+      "required": false
+    }
+  },
+  "stack": "container"
+}
